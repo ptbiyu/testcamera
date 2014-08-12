@@ -53,7 +53,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback,Cam
 		setContentView(R.layout.activity_main);
 		context=this;
 		context.getString(R.string.app_name);
-		
+		    
 		if(!checkCameraHardware(this)){
 			Toast.makeText(this, "", Toast.LENGTH_LONG).show();
 		}
